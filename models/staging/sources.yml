@@ -4,11 +4,17 @@ sources:
   - name: bronze
     catalog: workspace
     schema: bronze
-    description: "Datos crudos cargados en Bronze."
+    description: "Datos originales almacenados en Bronze."
 
     tables:
       - name: sales_raw
-        description: "Ventas crudas."
+        description: "Registro de ventas originales."
 
       - name: products_raw
-        description: "Productos crudos."
+        description: "Registro de productos originales."
+
+      - name: customers_raw
+        description: "Registro de clientes originales."
+
+      - name: stores_raw
+        description: "Registro de tiendas originales."
