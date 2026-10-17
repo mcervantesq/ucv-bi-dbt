@@ -39,5 +39,10 @@ models:
   my_new_project:
     staging:
       +materialized: view
+
     intermediate:
       +materialized: view
+
+    marts:
+      +materialized: table
+      +schema: gold
